@@ -28,3 +28,47 @@ body{
 .tile3{
   background-color: black;
 }
+
+.tile4, .tile5, .tile6{
+  width: 100px;
+  height: 100px;
+  margin: -10px;
+  float: left;
+}
+
+.tile4{
+  background-color: #734C61;
+  border-radius: 100%;
+}
+
+.tile5{
+  background-color: #D8EBF2;
+  border-radius: 100%;
+}
+
+.tile6{
+  background-color: #7B9EA6;
+  border-radius: 100%;
+}
+
+.tile7, .tile8, .tile9{
+  width: 100px;
+  height: 100px;
+  margin: -10px;
+  float: left;
+}
+
+.tile7{
+  background-color: #734C61;
+  border-radius: 100%;
+}
+
+.tile8{
+  background-color: #D8EBF2;
+  border-radius: 100%;
+}
+
+.tile9{
+  background-color: #7B9EA6;
+  border-radius: 100%;
+}
