@@ -59,16 +59,60 @@ body{
 }
 
 .tile7{
-  background-color: #734C61;
+  background-color: #590219;
   border-radius: 100%;
 }
 
 .tile8{
-  background-color: #D8EBF2;
+  background-color: #BF4E6D;
   border-radius: 100%;
 }
 
 .tile9{
-  background-color: #7B9EA6;
+  background-color: #26010F;
+  border-radius: 100%;
+}
+
+.tile10, .tile11, .tile12{
+  width: 100px;
+  height: 100px;
+  margin: -10px;
+  float: left;
+}
+
+.tile10{
+  background-color: #590219;
+  border-radius: 100%;
+}
+
+.tile11{
+  background-color: #BF4E6D;
+  border-radius: 100%;
+}
+
+.tile12{
+  background-color: #26010F;
+  border-radius: 100%;
+}
+
+.tile13, .tile14, .tile15{
+  width: 100px;
+  height: 100px;
+  margin: -10px;
+  float: left;
+}
+
+.tile14{
+  background-color: #590219;
+  border-radius: 100%;
+}
+
+.tile15{
+  background-color: #BF4E6D;
+  border-radius: 100%;
+}
+
+.tile15{
+  background-color: #26010F;
   border-radius: 100%;
 }
