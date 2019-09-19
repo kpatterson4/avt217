@@ -8,19 +8,19 @@ img {
 }
 
 a {
-  color: black;
+  color: #032C3B;
   text-decoration: none;
-  border-bottom: 5px solid red;
-  transition: color 3s ease;
+  border-bottom: 5px solid #B35C00;
+  transition: color .5s ease;
 }
 
 a:visited {
-  color: pink;
+  color: #065F80;
 }
 
 a:hover {
-  color: blue;
-  border-bottom: 5px dashed green;
+  color: #033040;
+  border-bottom: 5px dashed #FF8A0D;
 }
 
 a:focus {
