@@ -1,0 +1,35 @@
+body {
+  background-color: #0E6973;
+  text-align: center;
+}
+
+a {
+  color: #F26D85;
+  text-decoration: none;
+  border-bottom: 5px solid #BF7C63;
+  transition: color .5s ease;
+}
+
+a:visited {
+  color: #BF214B;
+}
+
+a:hover {
+  color: #F98764;
+  border-bottom: 5px dashed #A61903;
+}
+
+h1{
+  font-size: 200px;
+  font-family: 'Vibes', cursive;
+}
+
+h2{
+  font-size: 50px;
+  font-family: 'Vibes', cursive;
+}
+
+p{
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+}
