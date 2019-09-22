@@ -54,65 +54,77 @@ body{
 .tile7, .tile8, .tile9{
   width: 100px;
   height: 100px;
-  margin: -10px;
+  margin: 5px;
   float: left;
 }
 
 .tile7{
-  background-color: #590219;
-  border-radius: 100%;
+  width: 0;
+  height: 0;
+  border-top: 100px solid #590219;
+  border-left: 100px solid transparent;
 }
 
 .tile8{
-  background-color: #BF4E6D;
-  border-radius: 100%;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #BF4E6D;
+  border-right: 100px solid transparent;
 }
 
 .tile9{
-  background-color: #26010F;
-  border-radius: 100%;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid #26010F;
+  border-bottom: 50px solid transparent;
 }
 
 .tile10, .tile11, .tile12{
   width: 100px;
   height: 100px;
-  margin: -10px;
+  margin: 20px;
   float: left;
 }
 
 .tile10{
-  background-color: #8C4646;
-  border-radius: 100%;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #8C4646;
 }
 
 .tile11{
-  background-color: #402B23;
-  border-radius: 100%;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #402B23;
 }
 
 .tile12{
-  background-color: #BF8D7A;
-  border-radius: 100%;
+  width: 200px;
+  height: 100px;
+  background: #BF8D7A;
+  border-radius: 100px / 50px;
 }
 
 .tile13, .tile14, .tile15{
   width: 100px;
   height: 100px;
-  margin: -10px;
+  margin: 10px;
   float: left;
 }
 
 .tile13{
   background-color: #360259;
-  border-radius: 100%;
 }
 
 .tile14{
   background-color: #060126;
-  border-radius: 100%;
 }
 
 .tile15{
   background-color: #F2059F;
-  border-radius: 100%;
 }
