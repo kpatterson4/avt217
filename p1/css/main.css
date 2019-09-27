@@ -6,12 +6,12 @@ body{
 a{
   color: #F26D85;
   text-decoration: none;
-  border-bottom: 5px solid #BF7C63;
+  border-bottom: 5px solid #CAAFA6;
   transition: color .5s ease;
 }
 
 a:visited{
-  color: #BF214B;
+  color: #D96685;
 }
 
 a:hover{
@@ -25,6 +25,10 @@ h1{
 }
 
 h2{
+  font-family: 'Playfair Display', serif;
+}
+
+h3{
   font-size: 50px;
   font-family: 'Vibes', cursive;
 }
