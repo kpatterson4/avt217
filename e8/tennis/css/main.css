@@ -11,6 +11,11 @@ body{
   margin: 50px auto;
 }
 
+.center{
+  width: 400px;
+  float: left;
+}
+
 .side, .back, .middle {
   float: left;
   border: 10px solid white;
