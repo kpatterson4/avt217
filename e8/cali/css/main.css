@@ -4,59 +4,7 @@ body{
 }
 
 #container{
-  width: 400px;
+  width: 1000px;
   margin: 50px auto;
-}
-
-.column1{
-  width: 100px;
-  height: 600px;
-  float: left;
-}
-
-.column2{
-  width: 100px;
-  height: 6000px;
-  float: left;
-}
-
-.column3{
-  width: 200px;
-  height: 600px;
-  float: left;
-}
-
-.tall, .box, .long, .vtall, .block{
-  float: left;
   border: 5px solid white;
-}
-
-.tall{
-  width: 90px;
-  height: 190px;
-  background-color: #494080;
-}
-
-.box{
-  width: 90px;
-  height: 90px;
-  background-color: #D4CCFF;
-}
-
-.long{
-  width: 190px;
-  height: 90px;
-  background-color: #9480FF;
-}
-
-.vtall{
-  width: 90px;
-  height: 390px;
-  background-color: #6A6680;
-}
-
-.block{
-  width: 190px;
-  height: 390px;
-  background-color: #7566CC;
 }
