@@ -9,13 +9,6 @@
   margin: 0 0 5px 205px;
 }
 
-.column1{
-  width: 200px;
-  height: 400px;
-  background-color: red;
-  margin-right: 5px;
-}
-
 .box1{
   width: 200px;
   height: 200px;
@@ -46,6 +39,13 @@
   background-color: red;
   float:left;
   margin-left: 5px;
+}
+
+.column1{
+  width: 200px;
+  height: 400px;
+  background-color: red;
+  margin-right: 5px;
 }
 
 .footer{
