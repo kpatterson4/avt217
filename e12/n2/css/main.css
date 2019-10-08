@@ -1,0 +1,45 @@
+/*gen style*/
+body{
+}
+
+/*div style*/
+#container{
+  margin: auto;
+  width: 50%;
+}
+
+.text1{
+  width: 45%;
+  float: left;
+}
+
+.text2{
+  width: 45%;
+  margin-left: 50px;
+  float: left;
+}
+
+/*type style*/
+h1{
+  font-family: blenny, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h2{
+  font-family: stratos, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3{
+  font-family: stratos, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+p{
+  font-family: stratos, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
