@@ -1,0 +1,66 @@
+/*gen style*/
+body{
+  margin: 0 auto;
+}
+
+/*div style*/
+#container{
+  width: 1000px;
+}
+
+.title{
+  background-color: #F2A391;
+  width: 150px;
+  height: 125px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.author{
+  background-color: #11C5D9;
+  width: 800px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.first{
+  background-color: #F2EDE4;
+  width: 450px;
+  float: left;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.second{
+  background-color: #11B4D9;
+  width: 450px;
+  float: left;
+  margin: 0 auto;
+  margin-left: 500px;
+  margin-top: -10px;
+}
+
+/*type style*/
+h1{
+  font-family: farmhand-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+  font-family: linden-hill, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h3{
+  font-family: linden-hill, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+  font-family: linden-hill, serif;
+  font-weight: 400;
+  font-style: normal;
+}
