@@ -3,8 +3,16 @@
   margin: 0 auto;
 }
 
+#game{
+  margin-bottom: -850px;
+  width: 1021.255px;
+  height: 576.85px;
+}
+
 #imgone{
-  
+  margin-bottom: -800px;
+  width: 592.847px;
+  height: 687.883px;
 }
 
 #imgtwo{
@@ -61,6 +69,12 @@
   height: 1298.436px;
 }
 
+.proone{
+  width: 614.144px;
+  height: 878.397px;
+  margin-left: 800px;
+}
+
 .two{
   background-color: #FFFFFF;
   height: 1284.807px;
@@ -100,6 +114,7 @@ h1{
 font-family: octynaz, sans-serif;
 font-weight: 400;
 font-style: normal;
+font-size: 100px;
 }
 
 p{
