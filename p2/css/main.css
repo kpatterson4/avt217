@@ -1,0 +1,22 @@
+#container{
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.opening{
+  background-color: black;
+  height: 1297.974px;
+  color: white;
+}
+
+h1{
+font-family: octynaz, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+p{
+font-family: sofia-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
