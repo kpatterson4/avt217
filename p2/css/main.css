@@ -1,62 +1,72 @@
 #container{
-  width: 1440px;
+  width: 100%;
   margin: 0 auto;
+}
+
+#character{
+  margin-left: 60%;
+  margin-top: 38%;
+  margin-bottom: -93%;
 }
 
 #game{
-  margin-bottom: -850px;
-  width: 1021.255px;
-  height: 576.85px;
+  float: left;
+  margin-top: 15%;
+  margin-left: 5%;
 }
 
 #imgone{
-  margin-bottom: -800px;
-  width: 592.847px;
-  height: 687.883px;
+  margin-bottom: -79%;
+  margin-left: 5%;
 }
 
 #imgtwo{
-
+  margin-left: 60%;
+  margin-bottom: -33%;
 }
 
 #imgthree{
-
+  margin-left: 50%;
+  margin-bottom: -71%;
 }
 
 #vid1{
-  width: 1440px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 #imgfour{
-
+  margin-bottom: -80%;
 }
 
 #imgfive{
-
+  margin-left: 60%;
+  margin-bottom: -71%;
 }
 
 #imgsix{
-
+  margin-left: 50%;
+  margin-bottom: -79%;
 }
 
 #imgseven{
-
+  margin-bottom: -89%;
+  margin-left: 5%;
 }
 
 #imgeight{
-
+  margin-left: 50%;
+  margin-bottom: -79%;
 }
 
 #vid2{
-  width: 1440px;
   margin: 0 auto;
 }
 
 .opening{
   background-color: black;
-  height: 1297.974px;
   color: white;
+  padding-bottom: 40%;
+  text-align: center;
 }
 
 .title{
@@ -66,48 +76,104 @@
 
 .one{
   background-color: #969696;
-  height: 1298.436px;
+  margin-top: 34%;
+  padding-bottom: 10%;
 }
 
 .proone{
-  width: 614.144px;
-  height: 878.397px;
-  margin-left: 800px;
+  width: 40%;
+  margin-top: 17%;
+  margin-left: 55%;
 }
 
 .two{
   background-color: #FFFFFF;
-  height: 1284.807px;
+  padding-top: .5%;
+  padding-bottom: 5%;
+}
+
+.protwo{
+  width: 40%;
+  margin-left: 10%;
 }
 
 .three{
   background-color: #ED2426;
-  height: 1285.388px;
+  padding-bottom: 5%;
+  padding-top: .5%;
+  margin-top: 13.8%;
+}
+
+.prothree{
+  color: white;
+  width: 40%;
+  margin-left: 10%;
 }
 
 .four{
   background-color: #969696;
-  height: 1510.508px;
+  margin-top: 25%;
+  padding-bottom: 5%;
+  padding-top: .5%;
+}
+
+.profour{
+  width: 40%;
+  margin-left: 55%;
 }
 
 .five{
   background-color: #FFFFFF;
-  height: 1511.672px;
+  padding-bottom: 5%;
+  padding-top: .5%;
+  margin-top: 22.2%;
+}
+
+.profive{
+  width: 40%;
+  margin-left: 10%;
 }
 
 .six{
   background-color: #ED2426;
-  height: 1550.421px;
+  padding-bottom: 5%;
+  padding-top: .5%;
+  margin-top: 13.8%;
+}
+
+.prosix{
+  color: white;
+  width: 40%;
+  margin-left: 10%;
 }
 
 .seven{
   background-color: #969696;
-  height: 1551.95px;
+  padding-bottom: 5%;
+}
+
+.proseven{
+  width: 40%;
+  margin-top: 33%;
+  margin-left: 55%;
 }
 
 .eight{
   background-color: #FFFFFF;
-  height: 1428.728px;
+  padding-bottom: 5%;
+  padding-top: .5%;
+  margin-top: 21.7%;
+}
+
+.proeight{
+  width: 40%;
+  margin-left: 10%;
+}
+
+body{
+  margin: 0;
+  margin-top: -5%;
+  background-color: #111111;
 }
 
 h1{
@@ -121,4 +187,5 @@ p{
 font-family: sofia-pro, sans-serif;
 font-weight: 400;
 font-style: normal;
+font-size: 20px;
 }
