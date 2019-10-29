@@ -4,9 +4,9 @@
 }
 
 #character{
-  margin-left: 60%;
-  margin-top: 38%;
-  margin-bottom: -93%;
+  margin-left: 70%;
+  margin-top: 70%;
+  margin-bottom: -110%;
 }
 
 #game{
@@ -22,7 +22,7 @@
 
 #imgtwo{
   margin-left: 60%;
-  margin-bottom: -33%;
+  margin-bottom: -55%;
 }
 
 #imgthree{
@@ -117,13 +117,13 @@
 
 .one{
   background-color: #969696;
-  margin-top: 34%;
+  margin-top: 23%;
+  padding-top: .5%;
   padding-bottom: 10%;
 }
 
 .proone{
   width: 40%;
-  margin-top: 17%;
   margin-left: 55%;
 }
 
@@ -131,6 +131,7 @@
   background-color: #FFFFFF;
   padding-top: .5%;
   padding-bottom: 5%;
+  margin-top: 10%;
 }
 
 .protwo{
@@ -142,7 +143,7 @@
   background-color: #ED2426;
   padding-bottom: 5%;
   padding-top: .5%;
-  margin-top: 13.8%;
+  margin-top: 13.6%;
 }
 
 .prothree{
@@ -153,7 +154,7 @@
 
 .four{
   background-color: #969696;
-  margin-top: 25%;
+  margin-top: 18%;
   padding-bottom: 5%;
   padding-top: .5%;
 }
@@ -167,7 +168,7 @@
   background-color: #FFFFFF;
   padding-bottom: 5%;
   padding-top: .5%;
-  margin-top: 22.2%;
+  margin-top: 13%;
 }
 
 .profive{
@@ -179,7 +180,7 @@
   background-color: #ED2426;
   padding-bottom: 5%;
   padding-top: .5%;
-  margin-top: 13.8%;
+  margin-top: 11%;
 }
 
 .prosix{
@@ -195,7 +196,7 @@
 
 .proseven{
   width: 40%;
-  margin-top: 33%;
+  margin-top: 18%;
   margin-left: 55%;
 }
 
@@ -222,6 +223,13 @@ font-family: octynaz, sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 100px;
+}
+
+h2{
+font-family: octynaz, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 95px;
 }
 
 p{
