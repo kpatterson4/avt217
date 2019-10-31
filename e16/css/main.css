@@ -1,3 +1,50 @@
 body{
+  background-color: grey;
+}
+
+#container{
+  width: 100%;
+}
+
+.head{
+  width: 600px;
+  height: 800px;
+  border-radius: 50%;
   background-color: black;
+  position: relative;
+  top: 50px;
+  left: 500px;
+}
+
+.eyeL{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.eyeR{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+}
+
+.neck{
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  top: 770px;
+  left: 200px;
+}
+
+.body{
+
 }
