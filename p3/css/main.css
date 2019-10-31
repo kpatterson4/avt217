@@ -16,46 +16,19 @@
 }
 
 #imgone{
-  margin-bottom: -79%;
-  margin-left: 5%;
+  max-width: 20%;
+  margin-top: 15%;
+  float: left;
 }
 
 #imgtwo{
-  margin-left: 60%;
-  margin-bottom: -55%;
-}
-
-#imgthree{
-  margin-left: 50%;
-  margin-bottom: -71%;
+  max-width: 20%;
+  margin-top: 30%;
+  float: left;
 }
 
 #vid1{
   margin: auto;
-}
-
-#imgfour{
-  margin-bottom: -80%;
-}
-
-#imgfive{
-  margin-left: 60%;
-  margin-bottom: -71%;
-}
-
-#imgsix{
-  margin-left: 50%;
-  margin-bottom: -79%;
-}
-
-#imgseven{
-  margin-bottom: -89%;
-  margin-left: 5%;
-}
-
-#imgeight{
-  margin-left: 50%;
-  margin-bottom: -79%;
 }
 
 #vid2{
@@ -70,46 +43,6 @@
   text-align: center;
 }
 
-#star-five {
-  margin: 50px 0;
-  position: relative;
-  display: block;
-  color: #2D2D2D;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid #2D2D2D;
-  border-left: 100px solid transparent;
-  transform: rotate(35deg);
-}
-#star-five:before {
-  border-bottom: 80px solid #2D2D2D;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -45px;
-  left: -65px;
-  display: block;
-  content: '';
-  transform: rotate(-35deg);
-}
-#star-five:after {
-  position: absolute;
-  display: block;
-  color: #2D2D2D;
-  top: 3px;
-  left: -105px;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid #2D2D2D;
-  border-left: 100px solid transparent;
-  transform: rotate(-70deg);
-  content: '';
-}
-
 .title{
   background-color: #ED2426;
   height: 1298.557px;
@@ -117,99 +50,108 @@
 
 .one{
   background-color: #969696;
-  margin-top: 23%;
   padding-top: .5%;
   padding-bottom: 10%;
+  overflow-x: hidden;
 }
 
 .proone{
   width: 40%;
-  margin-left: 55%;
+  margin-left: 35%;
+  float: left;
 }
 
 .two{
   background-color: #FFFFFF;
   padding-top: .5%;
-  padding-bottom: 5%;
-  margin-top: 10%;
+  padding-bottom: 10%;
+  overflow-x: hidden;
 }
 
 .protwo{
   width: 40%;
   margin-left: 10%;
+  float: left;
 }
 
 .three{
   background-color: #ED2426;
-  padding-bottom: 5%;
   padding-top: .5%;
-  margin-top: 13.6%;
+  padding-bottom: 10%;
+  overflow-x: hidden;
 }
 
 .prothree{
   color: white;
   width: 40%;
-  margin-left: 10%;
+  margin-left: 35%;
+  float: left;
 }
 
 .four{
   background-color: #969696;
-  margin-top: 18%;
-  padding-bottom: 5%;
   padding-top: .5%;
+  padding-bottom: 10%;
+  overflow-x: hidden;
 }
 
 .profour{
   width: 40%;
-  margin-left: 55%;
+  margin-left: 35%;
+  float: left;
 }
 
 .five{
   background-color: #FFFFFF;
-  padding-bottom: 5%;
   padding-top: .5%;
-  margin-top: 13%;
+  padding-bottom: 10%;
+  overflow-x: hidden;
 }
 
 .profive{
   width: 40%;
   margin-left: 10%;
+  float: left;
 }
 
 .six{
   background-color: #ED2426;
-  padding-bottom: 5%;
   padding-top: .5%;
-  margin-top: 11%;
+  padding-bottom: 10%;
+  overflow-x: hidden;
 }
 
 .prosix{
   color: white;
   width: 40%;
   margin-left: 10%;
+  float: left;
 }
 
 .seven{
   background-color: #969696;
-  padding-bottom: 5%;
+  padding-top: .5%;
+  padding-bottom: 10%;
+  overflow-x: hidden;
 }
 
 .proseven{
   width: 40%;
-  margin-top: 18%;
-  margin-left: 55%;
+  margin-left: 35%;
+  float: left;
 }
 
 .eight{
   background-color: #FFFFFF;
-  padding-bottom: 5%;
   padding-top: .5%;
-  margin-top: 21.7%;
+  padding-bottom: 10%;
+  overflow-x: hidden;
 }
 
 .proeight{
   width: 40%;
   margin-left: 10%;
+  float: left;
 }
 
 body{
