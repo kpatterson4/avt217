@@ -46,5 +46,28 @@ body{
 }
 
 .body{
+  width: 600px;
+  height: 1000px;
+  background-color: black;
+  position: absolute;
+  top: 800px;
+}
 
+.armL{
+  width: 200px;
+  height: 1000px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  top: 50px;
+  left: 400px;
+}
+
+.armR{
+  width: 200px;
+  height: 1000px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: 600px;
 }
