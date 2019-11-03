@@ -11,9 +11,11 @@
 }
 
 #game{
-  float: left;
-  margin-top: 15%;
+  max-width: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   margin-left: 5%;
+  float: left;
 }
 
 #imgone{
@@ -30,7 +32,7 @@
 }
 
 #vid1{
-  margin: auto;
+  margin: 0 auto;
 }
 
 #vid2{
@@ -41,13 +43,16 @@
   background-color: black;
   color: white;
   padding-top: 10%;
-  padding-bottom: 40%;
+  padding-bottom: 10%;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .title{
   background-color: #ED2426;
-  height: 1298.557px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  overflow-x: hidden;
 }
 
 .one{
@@ -181,4 +186,527 @@ font-family: sofia-pro, sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+  #container{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #character{
+    max-width: 20%;
+    margin-left: 60%;
+    margin-top: -15%;
+    float: left;
+  }
+
+  #game{
+    max-width: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    float: left;
+  }
+
+  #imgone{
+    max-width: 10%;
+    margin-top: 15%;
+    margin-left: 2%;
+    float: left;
+  }
+
+  #imgtwo{
+    max-width: 20%;
+    margin-top: 30%;
+    float: left;
+  }
+
+  #vid1{
+    margin: 0 auto;
+  }
+
+  #vid2{
+    margin: 0 auto;
+  }
+
+  .opening{
+    background-color: black;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  .title{
+    background-color: #ED2426;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .one{
+    background-color: #969696;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .proone{
+    width: 60%;
+    margin-left: 33%;
+    float: left;
+  }
+
+  .two{
+    background-color: #FFFFFF;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .protwo{
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+  }
+
+  .three{
+    background-color: #ED2426;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .prothree{
+    color: white;
+    width: 40%;
+    margin-left: 33%;
+    float: left;
+  }
+
+  .four{
+    background-color: #969696;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .profour{
+    width: 40%;
+    margin-left: 33%;
+    float: left;
+  }
+
+  .five{
+    background-color: #FFFFFF;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .profive{
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+  }
+
+  .six{
+    background-color: #ED2426;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .prosix{
+    color: white;
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+  }
+
+  .seven{
+    background-color: #969696;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .proseven{
+    width: 40%;
+    margin-left: 33%;
+    float: left;
+  }
+
+  .eight{
+    background-color: #FFFFFF;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .proeight{
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+  }
+
+  h1{
+  font-family: octynaz, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 95px;
+  }
+
+  h2{
+  font-family: octynaz, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+  }
+
+  p{
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  #container{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #character{
+    max-width: 5%;
+    margin-left: 1%;
+    margin-top: -15%;
+    float: left;
+  }
+
+  #game{
+    max-width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    float: left;
+  }
+
+  #imgone{
+    margin-top: 15%;
+    margin-left: 2%;
+  }
+
+  #imgtwo{
+    margin-top: 15%;
+    margin-left: 2%;
+  }
+
+  .opening{
+    background-color: black;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  .title{
+    background-color: #ED2426;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .one{
+    background-color: #969696;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .proone{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .two{
+    background-color: #FFFFFF;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .protwo{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .three{
+    background-color: #ED2426;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .prothree{
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .four{
+    background-color: #969696;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .profour{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .five{
+    background-color: #FFFFFF;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .profive{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .six{
+    background-color: #ED2426;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .prosix{
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .seven{
+    background-color: #969696;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .proseven{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .eight{
+    background-color: #FFFFFF;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .proeight{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  h1{
+  font-family: octynaz, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 85px;
+  }
+
+  h2{
+  font-family: octynaz, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  }
+
+  p{
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 504px)
+{
+  #container{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #character{
+    max-width: 5%;
+    margin-left: 1%;
+    margin-top: -15%;
+    float: left;
+  }
+
+  #game{
+    max-width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    float: left;
+  }
+
+  #imgone{
+    margin-top: 15%;
+    margin-left: 2%;
+  }
+
+  #imgtwo{
+    max-width: 20%;
+    margin-top: 30%;
+  }
+
+  .opening{
+    background-color: black;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  .title{
+    background-color: #ED2426;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .one{
+    background-color: #969696;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .proone{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .two{
+    background-color: #FFFFFF;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .protwo{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .three{
+    background-color: #ED2426;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .prothree{
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .four{
+    background-color: #969696;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .profour{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .five{
+    background-color: #FFFFFF;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .profive{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .six{
+    background-color: #ED2426;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .prosix{
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .seven{
+    background-color: #969696;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .proseven{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .eight{
+    background-color: #FFFFFF;
+    padding-top: .5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+
+  .proeight{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  h1{
+  font-family: octynaz, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 95px;
+  }
+
+  h2{
+  font-family: octynaz, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+  }
+
+  p{
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  }
 }
