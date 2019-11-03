@@ -4,9 +4,10 @@
 }
 
 #character{
-  margin-left: 70%;
-  margin-top: 70%;
-  margin-bottom: -110%;
+  max-width: 20%;
+  margin-left: 60%;
+  margin-top: -15%;
+  float: left;
 }
 
 #game{
@@ -18,6 +19,7 @@
 #imgone{
   max-width: 20%;
   margin-top: 15%;
+  margin-left: 2%;
   float: left;
 }
 
@@ -57,7 +59,7 @@
 
 .proone{
   width: 40%;
-  margin-left: 35%;
+  margin-left: 33%;
   float: left;
 }
 
@@ -84,7 +86,7 @@
 .prothree{
   color: white;
   width: 40%;
-  margin-left: 35%;
+  margin-left: 33%;
   float: left;
 }
 
@@ -97,7 +99,7 @@
 
 .profour{
   width: 40%;
-  margin-left: 35%;
+  margin-left: 33%;
   float: left;
 }
 
@@ -137,7 +139,7 @@
 
 .proseven{
   width: 40%;
-  margin-left: 35%;
+  margin-left: 33%;
   float: left;
 }
 
