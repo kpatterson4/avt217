@@ -3,18 +3,18 @@
   margin: 0 auto;
 }
 
-#character{
-  max-width: 20%;
-  margin-left: 60%;
-  margin-top: -15%;
+.opening img{
+  max-width: 30%;
+  margin-left: 70%;
+  margin-top: -10%;
   float: left;
 }
 
-#game{
-  max-width: 20%;
+.title img{
+  max-width: 100%;
   margin-top: 10%;
   margin-bottom: 10%;
-  margin-left: 5%;
+  margin-left: 10%;
   float: left;
 }
 
@@ -31,19 +31,11 @@
   float: left;
 }
 
-#vid1{
-  margin: 0 auto;
-}
-
-#vid2{
-  margin: 0 auto;
-}
-
 .opening{
   background-color: black;
   color: white;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
   overflow-x: hidden;
 }
@@ -62,12 +54,6 @@
   overflow-x: hidden;
 }
 
-.textone{
-  width: 40%;
-  margin-left: 33%;
-  float: left;
-}
-
 .white{
   background-color: #FFFFFF;
   padding-top: .5%;
@@ -75,17 +61,23 @@
   overflow-x: hidden;
 }
 
-.texttwo{
-  width: 40%;
-  margin-left: 10%;
-  float: left;
-}
-
 .red{
   background-color: #ED2426;
   padding-top: .5%;
   padding-bottom: 10%;
   overflow-x: hidden;
+}
+
+.textone{
+  width: 40%;
+  margin-left: 33%;
+  float: left;
+}
+
+.texttwo{
+  width: 40%;
+  margin-left: 10%;
+  float: left;
 }
 
 .textthree{
@@ -109,74 +101,48 @@ body{
 }
 
 h1{
-font-family: octynaz, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 100px;
+  font-family: octynaz, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
 }
 
 h2{
-font-family: octynaz, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 95px;
+  font-family: octynaz, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 95px;
 }
 
 p{
-font-family: sofia-pro, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 20px;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 1024px)
 {
-  #container{
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  #character{
-    max-width: 20%;
-    margin-left: 60%;
-    margin-top: -15%;
+  .opening img{
+    max-width: 40%;
+    margin-left: 50%;
+    margin-top: -10%;
     float: left;
   }
 
-  #game{
-    max-width: 20%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+  .title img{
+    max-width: 100vh;
+    margin-top: 15%;
+    margin-bottom: 15%;
     margin-left: 5%;
     float: left;
-  }
-
-  #imgone{
-    max-width: 10%;
-    margin-top: 15%;
-    margin-left: 2%;
-    float: left;
-  }
-
-  #imgtwo{
-    max-width: 20%;
-    margin-top: 30%;
-    float: left;
-  }
-
-  #vid1{
-    margin: 0 auto;
-  }
-
-  #vid2{
-    margin: 0 auto;
   }
 
   .opening{
     background-color: black;
     color: white;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
     overflow-x: hidden;
   }
@@ -188,107 +154,48 @@ font-size: 20px;
     overflow-x: hidden;
   }
 
-  .one{
+  .gray{
     background-color: #969696;
     padding-top: .5%;
     padding-bottom: 10%;
     overflow-x: hidden;
   }
 
-  .proone{
-    width: 60%;
-    margin-left: 33%;
-    float: left;
-  }
-
-  .two{
+  .white{
     background-color: #FFFFFF;
     padding-top: .5%;
     padding-bottom: 10%;
     overflow-x: hidden;
   }
 
-  .protwo{
-    width: 40%;
-    margin-left: 10%;
-    float: left;
-  }
-
-  .three{
+  .red{
     background-color: #ED2426;
     padding-top: .5%;
     padding-bottom: 10%;
     overflow-x: hidden;
   }
 
-  .prothree{
+  .textone{
+    width: 40%;
+    margin-left: 33%;
+    float: left;
+  }
+
+  .texttwo{
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+  }
+
+  .textthree{
     color: white;
     width: 40%;
     margin-left: 33%;
     float: left;
   }
 
-  .four{
-    background-color: #969696;
-    padding-top: .5%;
-    padding-bottom: 10%;
-    overflow-x: hidden;
-  }
-
-  .profour{
-    width: 40%;
-    margin-left: 33%;
-    float: left;
-  }
-
-  .five{
-    background-color: #FFFFFF;
-    padding-top: .5%;
-    padding-bottom: 10%;
-    overflow-x: hidden;
-  }
-
-  .profive{
-    width: 40%;
-    margin-left: 10%;
-    float: left;
-  }
-
-  .six{
-    background-color: #ED2426;
-    padding-top: .5%;
-    padding-bottom: 10%;
-    overflow-x: hidden;
-  }
-
-  .prosix{
+  .textfour{
     color: white;
-    width: 40%;
-    margin-left: 10%;
-    float: left;
-  }
-
-  .seven{
-    background-color: #969696;
-    padding-top: .5%;
-    padding-bottom: 10%;
-    overflow-x: hidden;
-  }
-
-  .proseven{
-    width: 40%;
-    margin-left: 33%;
-    float: left;
-  }
-
-  .eight{
-    background-color: #FFFFFF;
-    padding-top: .5%;
-    padding-bottom: 10%;
-    overflow-x: hidden;
-  }
-
-  .proeight{
     width: 40%;
     margin-left: 10%;
     float: left;
@@ -318,41 +225,26 @@ font-size: 20px;
 
 @media only screen and (max-width: 768px)
 {
-  #container{
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  #character{
-    max-width: 5%;
-    margin-left: 1%;
-    margin-top: -15%;
+  .opening img{
+    max-width: 40%;
+    margin-left: 50%;
+    margin-top: -10%;
     float: left;
   }
 
-  #game{
+  .title img{
     max-width: 100%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 5%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-left: 5px;
     float: left;
-  }
-
-  #imgone{
-    margin-top: 15%;
-    margin-left: 2%;
-  }
-
-  #imgtwo{
-    margin-top: 15%;
-    margin-left: 2%;
   }
 
   .opening{
     background-color: black;
     color: white;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
     overflow-x: hidden;
   }
@@ -364,100 +256,44 @@ font-size: 20px;
     overflow-x: hidden;
   }
 
-  .one{
+  .gray{
     background-color: #969696;
     padding-top: .5%;
     padding-bottom: 10%;
     overflow-x: hidden;
   }
 
-  .proone{
-    width: 90%;
-    margin-left: 5%;
-  }
-
-  .two{
+  .white{
     background-color: #FFFFFF;
     padding-top: .5%;
     padding-bottom: 10%;
     overflow-x: hidden;
   }
 
-  .protwo{
-    width: 90%;
-    margin-left: 5%;
-  }
-
-  .three{
+  .red{
     background-color: #ED2426;
     padding-top: .5%;
     padding-bottom: 10%;
     overflow-x: hidden;
   }
 
-  .prothree{
+  .textone{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .texttwo{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .textthree{
     color: white;
     width: 90%;
     margin-left: 5%;
   }
 
-  .four{
-    background-color: #969696;
-    padding-top: .5%;
-    padding-bottom: 10%;
-    overflow-x: hidden;
-  }
-
-  .profour{
-    width: 90%;
-    margin-left: 5%;
-  }
-
-  .five{
-    background-color: #FFFFFF;
-    padding-top: .5%;
-    padding-bottom: 10%;
-    overflow-x: hidden;
-  }
-
-  .profive{
-    width: 90%;
-    margin-left: 5%;
-  }
-
-  .six{
-    background-color: #ED2426;
-    padding-top: .5%;
-    padding-bottom: 10%;
-    overflow-x: hidden;
-  }
-
-  .prosix{
-    color: white;
-    width: 90%;
-    margin-left: 5%;
-  }
-
-  .seven{
-    background-color: #969696;
-    padding-top: .5%;
-    padding-bottom: 10%;
-    overflow-x: hidden;
-  }
-
-  .proseven{
-    width: 90%;
-    margin-left: 5%;
-  }
-
-  .eight{
-    background-color: #FFFFFF;
-    padding-top: .5%;
-    padding-bottom: 10%;
-    overflow-x: hidden;
-  }
-
-  .proeight{
+  .textfour{
     width: 90%;
     margin-left: 5%;
   }
@@ -466,7 +302,7 @@ font-size: 20px;
   font-family: octynaz, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 85px;
+  font-size: 100px;
   }
 
   h2{
