@@ -55,108 +55,48 @@
   overflow-x: hidden;
 }
 
-.one{
+.gray{
   background-color: #969696;
   padding-top: .5%;
   padding-bottom: 10%;
   overflow-x: hidden;
 }
 
-.proone{
+.textone{
   width: 40%;
   margin-left: 33%;
   float: left;
 }
 
-.two{
+.white{
   background-color: #FFFFFF;
   padding-top: .5%;
   padding-bottom: 10%;
   overflow-x: hidden;
 }
 
-.protwo{
+.texttwo{
   width: 40%;
   margin-left: 10%;
   float: left;
 }
 
-.three{
+.red{
   background-color: #ED2426;
   padding-top: .5%;
   padding-bottom: 10%;
   overflow-x: hidden;
 }
 
-.prothree{
+.textthree{
   color: white;
   width: 40%;
   margin-left: 33%;
   float: left;
 }
 
-.four{
-  background-color: #969696;
-  margin-top: -.5%;
-  padding-top: .5%;
-  padding-bottom: 10%;
-  overflow-x: hidden;
-}
-
-.profour{
-  width: 40%;
-  margin-left: 33%;
-  float: left;
-}
-
-.five{
-  background-color: #FFFFFF;
-  padding-top: .5%;
-  padding-bottom: 10%;
-  overflow-x: hidden;
-}
-
-.profive{
-  width: 40%;
-  margin-left: 10%;
-  float: left;
-}
-
-.six{
-  background-color: #ED2426;
-  padding-top: .5%;
-  padding-bottom: 10%;
-  overflow-x: hidden;
-}
-
-.prosix{
+.textfour{
   color: white;
-  width: 40%;
-  margin-left: 10%;
-  float: left;
-}
-
-.seven{
-  background-color: #969696;
-  padding-top: .5%;
-  padding-bottom: 10%;
-  overflow-x: hidden;
-}
-
-.proseven{
-  width: 40%;
-  margin-left: 33%;
-  float: left;
-}
-
-.eight{
-  background-color: #FFFFFF;
-  padding-top: .5%;
-  padding-bottom: 10%;
-  overflow-x: hidden;
-}
-
-.proeight{
   width: 40%;
   margin-left: 10%;
   float: left;
