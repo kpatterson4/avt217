@@ -142,7 +142,7 @@ p{
   }
 
   .title img{
-    max-width: 100vh;
+    max-width: 100%;
     margin-top: 15%;
     margin-bottom: 15%;
     margin-left: 5%;
@@ -237,10 +237,9 @@ p{
 @media only screen and (max-width: 768px)
 {
   .mobile-only{
-    max-width: 65vh;
+    max-width: 100%;
     margin-left: -3%;
     display: block;
-    float: left;
   }
 
   .desktop-only{
@@ -341,7 +340,6 @@ p{
     max-width: 100%;
     margin-left: -3%;
     display: block;
-    float: left;
   }
 
   .desktop-only{
@@ -432,6 +430,6 @@ p{
   font-family: sofia-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 35px;
+  font-size: 25px;
   }
 }
