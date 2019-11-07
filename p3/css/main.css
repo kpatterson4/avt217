@@ -23,16 +23,17 @@
   float: left;
 }
 
-#imgone{
-  max-width: 20%;
+.imgone{
+  max-width: 40%;
   margin-top: 15%;
   margin-left: 2%;
   float: left;
 }
 
-#imgtwo{
-  max-width: 20%;
+.imgtwo{
+  max-width: 40%;
   margin-top: 30%;
+  margin-left: 10%;
   float: left;
 }
 
@@ -75,7 +76,8 @@
 
 .textone{
   width: 40%;
-  margin-left: 33%;
+  margin-left: 50%;
+  margin-top: -60%;
   float: left;
 }
 
@@ -88,7 +90,8 @@
 .textthree{
   color: white;
   width: 40%;
-  margin-left: 33%;
+  margin-left: 50%;
+  margin-top: -60%;
   float: left;
 }
 
@@ -145,7 +148,7 @@ p{
     max-width: 100%;
     margin-top: 15%;
     margin-bottom: 15%;
-    margin-left: 5%;
+    margin-left: 0%;
     float: left;
   }
 
@@ -186,28 +189,37 @@ p{
     overflow-x: hidden;
   }
 
+  .imgone{
+    max-width: 45%;
+  }
+
+  .imgtwo{
+    max-width: 40%;
+    margin-left: 0%;
+  }
+
   .textone{
-    width: 40%;
-    margin-left: 33%;
+    width: 50%;
+    margin-left: 48%;
     float: left;
   }
 
   .texttwo{
-    width: 40%;
-    margin-left: 10%;
+    width: 50%;
+    margin-left: 5%;
     float: left;
   }
 
   .textthree{
     color: white;
-    width: 40%;
-    margin-left: 33%;
+    width: 50%;
+    margin-left: 48%;
     float: left;
   }
 
   .textfour{
     color: white;
-    width: 40%;
+    width: 50%;
     margin-left: 10%;
     float: left;
   }
@@ -291,9 +303,22 @@ p{
     overflow-x: hidden;
   }
 
+  .imgone{
+    max-width: 80%;
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+
+  .imgtwo{
+    max-width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
   .textone{
     width: 90%;
     margin-left: 5%;
+    margin-top: 5%;
   }
 
   .texttwo{
@@ -305,9 +330,11 @@ p{
     color: white;
     width: 90%;
     margin-left: 5%;
+    margin-top: 5%;
   }
 
   .textfour{
+    color: white;
     width: 90%;
     margin-left: 5%;
   }
