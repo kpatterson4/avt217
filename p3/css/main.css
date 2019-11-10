@@ -31,24 +31,24 @@
 }
 
 .title img{
-  max-width: 100%;
+  max-width: 85%;
   margin-top: 10%;
-  margin-bottom: 10%;
-  margin-left: 10%;
+  margin-bottom: 15%;
+  margin-left: 8%;
   float: left;
 }
 
 .imgone{
   max-width: 40%;
   margin-top: 15%;
-  margin-left: 2%;
+  margin-left: 5%;
   float: left;
 }
 
 .imgtwo{
   max-width: 40%;
   margin-top: 30%;
-  margin-left: 10%;
+  margin-left: 5%;
   float: left;
   display: block;
 }
@@ -166,8 +166,8 @@ p{
 
   .title img{
     max-width: 100%;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 35%;
+    margin-bottom: 35%;
     margin-left: 0%;
     float: left;
   }
@@ -211,11 +211,12 @@ p{
 
   .imgone{
     max-width: 45%;
+    margin-left: 1%;
   }
 
   .imgtwo{
     max-width: 40%;
-    margin-left: 0%;
+    margin-left: -1%;
     display: block;
   }
 
