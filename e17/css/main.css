@@ -1,5 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
 body{
   margin: 0;
   font-family: 'Oswald', sans-serif;
-  background-color: blue;
+}
+
+.title{
+  width: 100vw;
+  height: 90vh;
+  background-color: coral;
+  padding: 32vh 0 0 0;
+}
+
+.chocolate{
+  width: 100vw;
+  height: 90vh;
+  background-color: saddlebrown;
+  padding: 32vh 0 0 0;
+}
+
+.potatoes{
+  width: 100vw;
+  height: 90vh;
+  background-color: wheat;
+  padding: 32vh 0 0 0;
+}
+
+.ramen{
+  width: 100vw;
+  height: 90vh;
+  background-color: maroon;
+  padding: 32vh 0 0 0;
+}
+
+.cookies{
+  width: 100vw;
+  height: 90vh;
+  background-color: rosybrown;
+  padding: 32vh 0 0 0;
+}
+
+.steak{
+  width: 100vw;
+  height: 90vh;
+  background-color: firebrick;
+  padding: 32vh 0 0 0;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.big{
+  font-size: 10vw;
+}
+
+.color{
+  color: red;
+}
+
+.align-right{
+  text-align: right;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  letter-spacing: .05em;
 }
