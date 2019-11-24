@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+  text-align: center;
+}
+
+.gif1{
+  display: block;
+}
+
+.gif2{
+  display: none;
+}
+
+.gif3{
+  display: none;
+}
+
+.gif4{
+  display: none;
+}
+
+.gif5{
+  display: none;
+}
