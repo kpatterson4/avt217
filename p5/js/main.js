@@ -1,7 +1,23 @@
-$(document).ready(function() {
-  console.log('noice');
+$(document).ready(function(){
+  console.log('Noice');
 
-  $( '.gif1' ).click(function() {
-    $('.gif1').toggle('display')
+  $(".one").click(function(){
+    $(".two").toggleClass("show")
+  });
+
+  $(".two").click(function(){
+    $(".three").toggleClass("show")
+  });
+
+  $(".three").click(function(){
+    $(".four").toggleClass("show")
+  });
+
+  $(".four").click(function(){
+    $(".five").toggleClass("show")
+  });
+
+  $(".five").click(function(){
+    $(".six").toggleClass("show")
   });
 });

@@ -3,22 +3,30 @@ body{
   text-align: center;
 }
 
-.gif1{
+img{
+  margin: 0 auto;
+}
+
+.two{
+  display: none;
+}
+
+.three{
+  display: none;
+}
+
+.four{
+  display: none;
+}
+
+.five{
+  display: none;
+}
+
+.six{
+  display: none;
+}
+
+.show{
   display: block;
-}
-
-.gif2{
-  display: none;
-}
-
-.gif3{
-  display: none;
-}
-
-.gif4{
-  display: none;
-}
-
-.gif5{
-  display: none;
 }
